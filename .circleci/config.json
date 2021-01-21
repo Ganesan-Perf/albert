@@ -1,0 +1,164 @@
+{
+ "env": {
+
+    "baseurl" :  "https://dev.albertinventdev.com",
+    "AuthURL" : "https://dev.albertinventdev.com/api/v2/Auth/loginVerification?userIpAddress=106.198.4.243",
+    "basehello":"https://dev.albertinventdev.com/api/hello"
+ },
+
+    "Inventory": {    
+        
+        "GetInvUrl": "/api/v2/Inventory/getInventoryAllV2",
+        "GetInventoryFilterV2":"/api/v2/Inventory/getInventoryFilterV2",
+        "GetInventoryLots" :"/api/v2/Inventory/GetInventoryLots",
+        "getLotNumberPrintPDF" :"/api/v2/Inventory/getLotNumberPrintPDF",
+        "getInventoryNotes" :"/api/v2/Inventory/getInventoryNotes",
+        "searchListSource" :"/api/v2/Inventory/searchListSource",
+        "GetInventory" :"/api/v2/Inventory/GetInventory",
+        "getExistingLotnumbersOfRawmaterial" :"/api/v2/Inventory/getExistingLotnumbersOfRawmaterial",
+        "SaveLotNumber" :"/api/v2/Inventory/SaveLotNumber",
+        "getInventoryList" :"/api/v2/Inventory/getInventoryList",
+        "getAllAlbertId" :"/api/v2/Inventory/getAllAlbertId",
+        "searchTags" :"/api/v2/Inventory/searchTags",
+        "getNewRawmaterialOptions" :"/api/v2/Inventory/getNewRawmaterialOptions",
+        "viewInventoryHistory" :"/api/v2/Inventory/viewInventoryHistory",
+        "getInventoryTracking" :"/api/v2/Settings/getInventoryTracking",
+        "getVendorValues" :"/api/v2/Inventory/getVendorValues",
+        "getInventoryDetailsOfLotnumber" :"/api/v2/Inventory/getInventoryDetailsOfLotnumber",
+        "CreateInventoryValue" :"/api/v2/Inventory/CreateInventoryValue",
+        "getLotNumbersByInventoryType" :"/api/v2/Inventory/getLotNumbersByInventoryType",
+        "saveInventoryAdjustment" :"/api/v2/Inventory/saveInventoryAdjustment"
+       
+    },
+
+    "Users": {
+    
+        "GetAppVersion": "/api/v2/Users/getAppVersion",
+        "getUserLocation": "/api/v2/Users/getUserLocation",
+        "getUserDetails": "/api/v2/Users/getUserDetails",
+        "getUsersByLocationId": "/api/v2/Users/getUsersByLocationId",
+        "getAllUsers": "/api/v2/Users/getAllUsers" 
+    },
+
+    "Project": {
+    
+        "getOperatingConditionList": "/api/v2/Project/getOperatingConditionList",
+        "getFormulationPictograms_V2": "/api/v2/Project/getFormulationPictograms_V2",
+        "allMoExpProjectsFormulas": "/api/v2/Project/allMoExpProjectsFormulas",
+        "InnovationProjects": "/api/v2/Project/InnovationProjects",
+        "getDetail": "/api/v2/Project/getDetail",
+        "getFormulationGridList": "/api/v2/Project/getFormulationGridList",
+        "getProjectNotes_V2": "/api/v2/Project/getProjectNotes_V2",
+        "getProjectOptions": "/api/v2/Project/getProjectOptions",
+        "allMoLockedFormulas": "/api/v2/Project/allMoLockedFormulas",
+        "getSpecialinstructionsList": "/api/v2/Project/getSpecialinstructionsList"
+    
+    
+    },
+
+    "ProjectFormula": {
+
+        "saveFormulaValue": "/api/v2/ProjectFormula/saveFormulaValue",   
+        "getAllFormulas": "/api/v2/ProjectFormula/getAllFormulas"   
+        
+        
+    },
+    
+    "Template": {
+
+        "displayTaskTemplate": "/api/v2/Template/displayTaskTemplate",
+        "printInventoryTemplate": "/api/v2/Template/printInventoryTemplate",  
+        "SearchFormula": "/api/v2/Template/SearchFormula"  
+     
+        
+    },
+
+    "Common": {
+
+        "downloadGeneratedFile": "/api/v2/Common/downloadGeneratedFile"       
+        
+    },
+
+    "TaskCenter": {
+
+        "getTechcentreV2": "/api/v2/TaskCenter/getTechcentreV2",
+        "getTaskNotesList_V2": "/api/v2/TaskCenter/getTaskNotesList_V2"  
+        
+    },
+
+    "StorageCompatibility": {
+
+        "getStorageCompatibilityWarningList": "/api/v2/StorageCompatibility/getStorageCompatibilityWarningList",    
+        "getAllUnNumbersList": "/api/v2/StorageCompatibility/getAllUnNumbersList"      
+        
+        
+    },
+
+    "PropertyTask": {
+
+        "getPropertyCollectionDataBasedOnInterval": "/api/v2/PropertyTask/getPropertyCollectionDataBasedOnInterval",
+        "getLotNumberList": "/api/v2/PropertyTask/getLotNumberList",
+        "UpdatePropertyTaskData": "/api/v2/PropertyTask/UpdatePropertyTaskData",
+        "getProjectFormulaPropertyNotes": "/api/v2/PropertyTask/getProjectFormulaPropertyNotes",
+        "UpdatePropertyDatagridByMultipleRecords": "/api/v2/PropertyTask/UpdatePropertyDatagridByMultipleRecords" 
+        
+    },
+
+    "GeneralTask": {
+
+        "checkUserAccessForTask": "/api/v2/GeneralTask/checkUserAccessForTask",
+        "getTaskDetail": "/api/v2/GeneralTask/getTaskDetail",
+        "checkOwnerAccessForTask": "/api/v2/GeneralTask/checkOwnerAccessForTask"
+        
+    },
+    
+
+    "BatchTask": {
+
+        "getRawmaterialLotNumber": "/api/v2/BatchTask/getRawmaterialLotNumber",
+        "saveBatchFormulaValueLotNumber": "/api/v2/BatchTask/saveBatchFormulaValueLotNumber",
+        "getPreventionStatements": "/api/v2/BatchTask/getPreventionStatements",
+        "getlabbatch": "/api/v2/BatchTask/getlabbatch",
+        "getLabbatchFormula": "/api/v2/BatchTask/getLabbatchFormula"
+      
+        
+    },
+
+    "ProjectProperties": {
+
+        "getInnovationPhasePropertyGridDetails_V2_SOPs": "/api/v2/ProjectProperties/getInnovationPhasePropertyGridDetails_V2_SOPs",
+        "getInnovationPhasePropertyGridDetails_V2_Workflow": "/api/v2/ProjectProperties/getInnovationPhasePropertyGridDetails_V2_Workflow"
+
+        
+    },
+
+
+    
+
+     "HeaderParam": {
+        
+        "Orgin": "http://localhost:22500",
+        "hosturl": "dev.albertinventdev.com",
+        "x-app-version" : "39",
+        "Authorization" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTY4LCJ1c2VyVHlwZUlkIjoxLCJpc1Rva2VuVmVyaWZpZWQiOjEsIm5hbWUiOiJOYW1lIDE2OCIsImlhdCI6MTYxMDAwNjUxOX0.3oa6hArpzzxvNo1p_QIohWpQQfDzMa1juS3p_MKzVqY"
+    },
+    
+    "scenario": {
+        "duration_step1": "200s",
+        "duration_step2": "10s",
+        "duration_step3": "5s",
+        "target_step1":20,
+        "target_step2":5,
+        "target_step3":0,
+        "VirtualUser":50,
+        "calls":500
+    },
+
+    "thresholds1" : {
+        "thresholds_passfail": "p(95)<1000",
+        "handshake_passfail": "p(95)<500"
+    }
+
+}
+
+
